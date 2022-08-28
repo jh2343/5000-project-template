@@ -1,2 +1,2 @@
 # 501-project-template
-Template for ANLY-501 project
+* include general information here for anyone trying to clone your repository and re-create the results
