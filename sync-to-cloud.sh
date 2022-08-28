@@ -7,8 +7,8 @@
 #DATE=$(date) #$(date +"%Y-%m-%d")
 #message="BACKING UP ANLY-501 PROJECT TO GITHUB SERVERS: "$DATE; 
 
-DATE=$(date -Is) #$(date +"%Y-%m-%d")
-message="SYNC-"$DATE;
+DATE=$(date +"DATE-%Y-%m-%d-TIME-%H-%M-%S")
+message="GITHUB-UPLOAD:$DATE";
 echo "commit message = "$message; 
 git add ./; 
 git commit -m $message; 
