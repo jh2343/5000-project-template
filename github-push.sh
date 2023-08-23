@@ -5,6 +5,7 @@
 #       cd path_to_the_folder
 #       ls 
 #   2) MAKE THIS SHELL SCRIPT EXECUTABLE (RUNABLE) (IT WILL RUN ONE LINE AT A TIME)
+#       NOTE YOU ONLY NEED TO DO THIS ONCE!!!!!!!!!!!!!!
 #       chmod a+x github-push.sh
 #   3) TO RUN THE SCRIPT USE
 #       ./github-push.sh
