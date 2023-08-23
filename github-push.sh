@@ -19,8 +19,11 @@ read -p 'ENTER MESSAGE: ' message
 echo "commit message = "$message; 
 git add ./; 
 
-# PUSH TO MAIN BRANCH
+# COMMITE CHANGES TO QUE
 git commit -m "$message"; 
+
+# PUSH TO MAIN BRANCH
+git push
 
 # PUSH NON-MAIN BRANCH
 #git push  -u origin my_branch_name
